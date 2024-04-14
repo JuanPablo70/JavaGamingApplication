@@ -2,9 +2,9 @@ package com.nexus.learnspringframework.game;
 
 public class GameRunner {
 
-    MarioGame game;
-    public GameRunner(MarioGame marioGame) {
-        game = marioGame;
+    private GamingConsole game;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
 
     public void run() {
