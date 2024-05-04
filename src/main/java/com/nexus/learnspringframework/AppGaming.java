@@ -1,6 +1,5 @@
-package com.nexus.learnspringframework;
+package com.nexus.learnspringframework.game;
 
-import com.nexus.learnspringframework.game.*;
 import org.springframework.context.annotation.*;
 
 @Configuration
